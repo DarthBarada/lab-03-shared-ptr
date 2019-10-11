@@ -1,0 +1,3 @@
+/home/darthbarada/Programming/BMSTU/lab-03-shared-ptr/sources/_build/CMakeFiles/rebuild_cache.dir
+/home/darthbarada/Programming/BMSTU/lab-03-shared-ptr/sources/_build/CMakeFiles/main.dir
+/home/darthbarada/Programming/BMSTU/lab-03-shared-ptr/sources/_build/CMakeFiles/edit_cache.dir

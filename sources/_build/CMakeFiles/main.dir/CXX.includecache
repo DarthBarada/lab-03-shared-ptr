@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../../include/SharedPtr.h
+atomic
+-
+cstddef
+-
+
+/home/darthbarada/Programming/BMSTU/lab-03-shared-ptr/sources/main.cpp
+iostream
+-
+SharedPtr.h
+/home/darthbarada/Programming/BMSTU/lab-03-shared-ptr/sources/SharedPtr.h
+
