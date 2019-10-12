@@ -1,6 +1,7 @@
 ![status bar](https://travis-ci.org/DarthBarada/lab-03-shared-ptr.svg?branch=master)
 ![Code size](https://img.shields.io/github/languages/code-size/DarthBarada/lab-03-shared-ptr.svg)
 ![GitHub Repo size](https://img.shields.io/github/repo-size/DarthBarada/lab-03-shared-ptr.svg)
+![forthebadge](https://forthebadge.com/images/badges/made-with-c-plus-plus.svg)
 
 # Лабораторная работа №3
 
