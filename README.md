@@ -1,3 +1,5 @@
+![status bar](https://travis-ci.org/DarthBarada/lab-03-shared-ptr.svg?branch=master)
+
 # Лабораторная работа №3
 
 ### Задание
