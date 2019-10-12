@@ -34,7 +34,11 @@ public:
 
     ~SharedPtr()
         {
-            if (count != nullptr)
+             if (totalUse == nullptr) 
+                 {
+                    return;
+                 }
+            else
                 {
                     *(count) = *(count) - 1;
                     if (*(count) == 0)
