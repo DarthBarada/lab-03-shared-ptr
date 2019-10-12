@@ -162,5 +162,5 @@ TEST(shared_ptr, Count)
 	{
 		int a = rand();
 		SharedPtr ptr{new int {a}};
-		EXPECT_EQ(ptr.use_count(),a);
+		EXPECT_EQ(ptr.use_count(),1);
 	}
