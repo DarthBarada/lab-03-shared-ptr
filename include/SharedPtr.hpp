@@ -34,7 +34,7 @@ public:
 
     ~SharedPtr()
         {
-             if (totalUse == nullptr) 
+             if (data == nullptr) 
                  {
                     return;
                  }
