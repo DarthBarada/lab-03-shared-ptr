@@ -170,7 +170,7 @@ TEST_F(SharedPtrFixture, Reset)
     EXPECT_EQ(SharedPtrFixture::Destructable::isDestructed, true);
 
     EXPECT_EQ(static_cast<bool>(ptrDestructable), false);
-    EXPECT_EQ(ptrDestructable.use_count(), 1);
+    EXPECT_EQ(ptrDestructable.use_count(), 0);
     EXPECT_EQ(ptrDestructable.get(), nullptr);
 }
 
