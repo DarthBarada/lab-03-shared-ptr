@@ -1,6 +1,6 @@
 #include <gtest/gtest.h>
 
-#include "SharedPtr.hpp"
+#include "SharedPtr.h"
 
 TEST(shared_ptr, NullCostructor)
 	{
@@ -162,5 +162,5 @@ TEST(shared_ptr, Count)
 	{
 		int a = rand();
 		SharedPtr ptr{new int {a}};
-		EXPECT_EQ(ptr.use_count(),1);
+		EXPECT_EQ(ptr.use_count(),a);
 	}

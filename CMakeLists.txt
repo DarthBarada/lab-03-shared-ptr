@@ -29,7 +29,8 @@ find_package(Threads)
 
 add_executable(
   tests
-  ${CMAKE_CURRENT_SOURCE_DIR}/tests/Test.cpp
+  ${CMAKE_CURRENT_SOURCE_DIR}/tests/test.cpp
+  ${CMAKE_CURRENT_SOURCE_DIR}/tests/test2.cpp
 )
 
 target_include_directories(
