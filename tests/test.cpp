@@ -1,6 +1,6 @@
 #include <gtest/gtest.h>
 
-#include "SharedPtr.h"
+#include "SharedPtr.hpp"
 
 TEST(shared_ptr, NullCostructor)
 	{
