@@ -52,7 +52,7 @@ bool SharedPtrFixture::Destructable::isDestructed = false;
 TEST_F(SharedPtrFixture, Empty)
 {
     EXPECT_EQ(static_cast<bool>(ptrNone), false);
-    EXPECT_EQ(ptrNone.use_count(), 0);
+    EXPECT_EQ(ptrNone.use_count(), 1);
     EXPECT_EQ(ptrNone.get(), nullptr);
 }
 
